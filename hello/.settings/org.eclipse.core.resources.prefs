@@ -1,7 +1,13 @@
 eclipse.preferences.version=1
+encoding//src/com/hello/client/AddStudent.java=UTF-8
+encoding//src/com/hello/client/DetailListStudent.java=UTF-8
+encoding//src/com/hello/client/EditStudent.java=UTF-8
 encoding//src/com/hello/client/Header.java=UTF-8
 encoding//src/com/hello/client/Hello.java=UTF-8
+encoding//src/com/hello/client/ListStudent.java=UTF-8
+encoding//src/com/hello/client/ListUser.java=UTF-8
 encoding//src/com/hello/client/LoginServiceUsageExample.java=UTF-8
 encoding//src/com/hello/client/RootPage.java=UTF-8
 encoding//src/com/hello/client/StudentPage.java=UTF-8
 encoding//src/com/hello/client/TeacherPage.java=UTF-8
+encoding//src/com/hello/server/RootServiceImpl.java=UTF-8

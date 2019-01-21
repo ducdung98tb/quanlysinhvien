@@ -18,7 +18,7 @@ public class RootPage extends Composite {
 		
 		tabPanel = new TabPanel();
 		tabPanel.add(new HTML("<h1>Page 1 Content: Camels</h1>"), " Trang chủ ");
-		tabPanel.add(new ListUser(), " Quản lý sinh viên ");
+		tabPanel.add(new ListStudent(), " Quản lý sinh viên ");
 		tabPanel.add(new HTML("<h1>Page 2 Content: Camels</h1>"), " Quản lý giảng viên ");
 		tabPanel.add(new HTML("<h1>Page 3 Content: Camels</h1>"), " Quản lý lớp ");
 		tabPanel.add(new HTML("<h1>Page 3 Content: Camels</h1>"), " Quản lý đồ án ");

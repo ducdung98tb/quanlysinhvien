@@ -16,9 +16,20 @@
     <url-pattern>/hello/service/loginservice</url-pattern>
   </servlet-mapping>
   
+  
+   <servlet>
+    <servlet-name>RootServiceImpl</servlet-name>
+    <servlet-class>com.hello.server.RootServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RootServiceImpl</servlet-name>
+    <url-pattern>/hello/service/getListStudent</url-pattern>
+  </servlet-mapping>
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>Hello.html</welcome-file>
   </welcome-file-list>
+  
 
 </web-app>

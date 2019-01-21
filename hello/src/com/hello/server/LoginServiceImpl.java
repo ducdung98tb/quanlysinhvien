@@ -20,7 +20,7 @@ public class LoginServiceImpl extends RemoteServiceServlet implements LoginServi
 	public User getUser(String username, String password) {
 		User user = new User();
 		try {
-			ResultSet rs = new ConnectDB().getData("select * from user where userId='" + username + "' and password = '" + password + "'");
+			rs = new ConnectDB().getData("select * from user where userId='" + username + "' and password = '" + password + "'");
 			while (rs.next()) {
 				String userId = rs.getNString("userId");
 				String userName = rs.getNString("userName");
